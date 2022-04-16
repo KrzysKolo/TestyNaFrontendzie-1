@@ -16,6 +16,6 @@ it("should return the best promotion in a given period", () => {
     today,
     promotions
   );
-  expect(theBestPromotionForDate).toEqual(promotions[1]);
+  expect(theBestPromotionForDate).toEqual(promotions[0]);
 });;
 });
